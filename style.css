@@ -1,0 +1,233 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main > .box {
+  position: relative;
+  width: 65%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.box > .straight {
+  position: absolute;
+  top: 2%;
+  right: 0%;
+  width: 90%;
+  height: 2%;
+  background-color: white;
+}
+
+.box > .line {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  width: 1.5%;
+  height: 60%;
+  background-color: white;
+}
+
+.box > .boxline {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  width: 8%;
+  height: 2%;
+  background-color: white;
+}
+
+.box > .topl {
+  position: absolute;
+  left: 5%;
+  width: 50%;
+  height: 60%;
+  background-color: antiquewhite;
+  opacity: 0.7;
+}
+
+.topl > .topu {
+  width: 90%;
+  height: 80%;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+.topu > h5 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.topu > h6 {
+  line-height: 5px;
+  font-size: 15px;
+  padding-left: 7%;
+  padding-bottom: 10px;
+}
+
+.topu > p {
+  font-size: 12px;
+  padding-left: 7%;
+}
+
+.topu > h1 {
+  padding-top: 9px;
+  font-size: 65px;
+  padding-left: 10%;
+}
+
+.topu > h2 {
+  line-height: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 10%;
+}
+
+.topu > h3 {
+  line-height: 33px;
+  font-size: 16px;
+  padding-left: 10%;
+  font-weight: 600;
+}
+
+.box > .topr {
+  position: absolute;
+  top: 6%;
+  right: 5%;
+  width: 5%;
+  height: 30%;
+  background-color: antiquewhite;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 25px;
+  border: 5px solid white;
+}
+
+.box > .upper {
+  width: 100%;
+  height: 50%;
+  background-color: pink;
+  display: flex;
+}
+
+.upper > .ul {
+  width: 20%;
+  height: 100%;
+  background-color: #25292c;
+}
+
+.upper > .ur {
+  width: 80%;
+  height: 100%;
+  background-image: url(./background.avif);
+  background-position: center;
+  background-size: cover;
+}
+
+.box > .lower {
+  width: 100%;
+  height: 50%;
+  background-color: #25292c;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+
+.lower > .lowerbox {
+  width: 30%;
+  height: 80%;
+  margin-left: 15%;
+  padding-top: 2%;
+  color: white;
+}
+
+.lowerbox > h5 {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.lowerbox > p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.box > .bottom {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 50%;
+  height: 60%;
+  background-color: burlywood;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom > .bottombox {
+  width: 70%;
+  height: 70%;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottombox > h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: end;
+}
+
+.bottombox > p {
+    text-align: end;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+.bottombox > .box-l {
+  padding-top: 10px;
+  width: 100%;
+  height: 1%;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+  opacity: 0.8                      ;
+}
+
+.bottombox > .logo {
+    margin-top: 20px;
+    width: 100%;
+    height: 40%;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.logo > i {
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.logo > p {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
